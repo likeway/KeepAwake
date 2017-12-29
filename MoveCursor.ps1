@@ -1,6 +1,6 @@
 param($minutes=9)
 "m= $minutes"
-"縮小視窗"
+"縮小視窗ok"
 $consoleUI = (Get-Host).UI.RawUI
 $consoleUISzie = $consoleUI.WindowSize
 $consoleUISzie.Width = 10
